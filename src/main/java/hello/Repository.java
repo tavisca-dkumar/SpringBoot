@@ -13,17 +13,32 @@ public class Repository {
         ArrayList<Todo> todoList = new ArrayList<>(todo.values());
         return todoList;
     }
-    public void addTodoItem(Todo todoObj)
+    public  Todo getTodoItem(int id)
+    {
+        return todo.get(id);
+    }
+    public boolean addTodoItem(Todo todoObj)
     {
         todo.put(todoObj.getTodoId(),todoObj);
+        return todo.containsKey(todoObj.getTodoId());
     }
-    public void deleteTodoItem(int id)
+    public boolean deleteTodoItem(int id)
     {
-        todo.remove(id);
+        if(todo.containsKey(id))
+        {
+            todo.remove(id);
+            return todo.containsKey(id);
+        }
+        else
+            return true;
     }
-    public void updateTodoItem(Todo todoObj)
+    public boolean updateTodoItem(Todo todoObj)
     {
-        todo.put(todoObj.getTodoId(),todoObj);
-
+        if(todo.containsKey(todoObj.getTodoId())) {
+            todo.put(todoObj.getTodoId(), todoObj);
+            return todo.containsKey(todoObj.getTodoId());
+        }
+        else
+            return false;
     }
 }

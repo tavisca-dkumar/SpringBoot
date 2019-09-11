@@ -15,6 +15,17 @@
           <li><input type="button" class="button" value="user" onclick="user()"></li>
       </div>
       <div class="item3" id="main" style="background-color: #dfe3ee">
+        <input type="text" class="search" list="datalist" id ="search" onkeyup="autoSuggestion(this.value)">
+        <datalist id="datalist"></datalist>
+        <input type="button" class="add" id="add" value ="add" onclick="addToDo()">
+        <table id="toDoTable">
+          <tr>
+            <th>todoId</th>
+            <th>DATE</th>
+            <th>TO_DO</th>
+            <th>ACTIONS</th>
+          </tr>
+        </table>
        <!-- <img src="to-do-list.jpg" alt="djakdj" width="200px" height="300px">-->
       </div>  
       <div class="item4" style="background-color: #dfe3ee;color:#dfe3ee">footer</div>
