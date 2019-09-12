@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class TodoController {
 
@@ -14,38 +14,40 @@ public class TodoController {
     Repository repo;
     @GetMapping("/todo")
     public ResponseEntity<ArrayList<Todo>> Todo() {
-        return  new ResponseEntity<ArrayList<Todo>>(repo.todoItems(), HttpStatus.OK) ;
+        if(repo.isEmpty())
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        else
+            return  new ResponseEntity<ArrayList<Todo>>(repo.todoItems(), HttpStatus.OK) ;
     }
     @GetMapping("/todo/{id}")
     public  ResponseEntity<Todo> getItemById(@PathVariable int id)
     {
-        Todo item=repo.getTodoItem(id);
-        if(item!=null)
-            return new ResponseEntity<>(item,HttpStatus.OK);
+        if(repo.isPresent(id))
+            return new ResponseEntity<>(repo.getTodoItem(id),HttpStatus.OK);
         else
             return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
     @PostMapping("/todo")
-    public  ResponseEntity<ArrayList<Todo>>  addTodo(@RequestBody Todo todoObj){
+    public  ResponseEntity  addTodo(@RequestBody Todo todoObj){
 
         if(repo.addTodoItem(todoObj))
-            return new ResponseEntity<ArrayList<Todo>>(repo.todoItems(),HttpStatus.CREATED);
+            return new ResponseEntity(HttpStatus.CREATED);
         else
-            return new ResponseEntity<>(HttpStatus.INSUFFICIENT_STORAGE);
+            return new ResponseEntity(HttpStatus.INSUFFICIENT_STORAGE);
     }
     @PutMapping("/todo")
-    public ResponseEntity<ArrayList<Todo>> updateTodo(@RequestBody Todo todoObj){
+    public ResponseEntity updateTodo(@RequestBody Todo todoObj){
        if(repo.updateTodoItem(todoObj))
-        return new ResponseEntity<ArrayList<Todo>>(repo.todoItems(),HttpStatus.OK) ;
+        return new ResponseEntity(HttpStatus.OK) ;
        else
-           return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+           return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
     @DeleteMapping("/todo/{id}")
-    public ResponseEntity<ArrayList<Todo>> deleteTodo(@PathVariable int id){
-        if(!repo.deleteTodoItem(id))
-            return new ResponseEntity<ArrayList<Todo>>(repo.todoItems(),HttpStatus.OK);
+    public ResponseEntity deleteTodo(@PathVariable int id){
+        if(repo.deleteTodoItem(id))
+            return new ResponseEntity(HttpStatus.OK);
         else
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
 }

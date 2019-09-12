@@ -2,25 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1c7c9e9-c54a-456f-84c8-9c020dc976ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/Application.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/Repository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hello/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hello/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/TodoControllerTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hello/TodoControllerTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/hello/TodoControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/hello/TodoControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.TodoControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/hello.TodoControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-hello.TodoControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-hello.TodoControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hello/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_ui/to_do.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo_ui/to_do.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/TodoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/TodoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_ui/myscript1.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_ui/myscript1.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="680">
               <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
             </state>
           </provider>
@@ -81,8 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Todo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/todo_ui/myscript1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -90,20 +107,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/TodoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hello/TodoControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+            <state relative-caret-position="393">
+              <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,12 +128,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,10 +140,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="374">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,6 +162,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>http://</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -161,12 +180,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/myscript1.js" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Todo.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/Compoment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/TodoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Repository.java" />
         <option value="$PROJECT_DIR$/src/test/java/TodoControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/Application.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Repository.java" />
         <option value="$PROJECT_DIR$/src/test/java/hello/TodoControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/TodoController.java" />
+        <option value="$PROJECT_DIR$/todo_ui/myscript1.js" />
+        <option value="$PROJECT_DIR$/src/main/java/hello/Application.java" />
       </list>
     </option>
   </component>
@@ -176,9 +196,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-7" />
     <option name="width" value="708" />
     <option name="height" value="688" />
   </component>
@@ -188,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -200,20 +218,13 @@
             <path>
               <item name="SpringFrameWorkDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringFrameWorkDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringFrameWorkDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringFrameWorkDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.10.3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringFrameWorkDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringFrameWorkDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="4.10.3" type="462c0819:PsiDirectoryNode" />
-              <item name="fileChanges" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringFrameWorkDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -265,10 +276,16 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringFrameWorkDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringFrameWorkDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="todo_ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TodoControllerTest.getAllTodo">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.Application" />
       <module name="SpringFrameWorkDemo.main" />
@@ -313,7 +330,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TodoControllerTest" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -333,12 +350,52 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TodoControllerTest.getAllTodo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TodoControllerTest.canAddTodoItem" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;hello.TodoControllerTest.getAllTodo&quot;" />
+        <option name="scriptParameters" value="--tests &quot;hello.TodoControllerTest.canAddTodoItem&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoControllerTest.canGetNoContentForEmptyTodoList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.TodoControllerTest.canGetNoContentForEmptyTodoList&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoControllerTest.canGetNotFoundForUnknownId" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;hello.TodoControllerTest.canGetNotFoundForUnknownId&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -355,10 +412,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TodoControllerTest.getAllTodo" />
-        <item itemvalue="Gradle.TodoControllerTest" />
-        <item itemvalue="Gradle.TodoControllerTest" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.TodoControllerTest.canGetNoContentForEmptyTodoList" />
+        <item itemvalue="Gradle.TodoControllerTest.canAddTodoItem" />
+        <item itemvalue="Gradle.TodoControllerTest.canGetNotFoundForUnknownId" />
       </list>
     </recent_temporary>
   </component>
@@ -376,42 +433,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoControllerTest - 2019.09.11 at 11h 01m 03s.xml">
+    <history-entry file="TodoControllerTest_canAddTodoItem - 2019.09.11 at 16h 28m 48s.xml">
+      <configuration name="TodoControllerTest.canAddTodoItem" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TodoControllerTest_canGetNoContentForEmptyTodoList - 2019.09.11 at 16h 33m 31s.xml">
+      <configuration name="TodoControllerTest.canGetNoContentForEmptyTodoList" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TodoControllerTest - 2019.09.11 at 16h 34m 21s.xml">
       <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest - 2019.09.11 at 11h 03m 33s.xml">
+    <history-entry file="TodoControllerTest - 2019.09.11 at 16h 41m 27s.xml">
       <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest - 2019.09.11 at 11h 11m 16s.xml">
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 12m 02s.xml">
       <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 17m 51s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 21m 57s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TodoControllerTest - 2019.09.11 at 11h 26m 04s.xml">
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 18m 43s.xml">
       <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 26m 41s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 31m 56s.xml">
+      <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 31m 27s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 34m 59s.xml">
+      <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 32m 31s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 36m 09s.xml">
+      <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TodoControllerTest_getAllTodo - 2019.09.11 at 11h 33m 35s.xml">
-      <configuration name="TodoControllerTest.getAllTodo" configurationId="GradleRunConfiguration" />
+    <history-entry file="TodoControllerTest - 2019.09.11 at 17h 36m 46s.xml">
+      <configuration name="TodoControllerTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -420,7 +477,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37315875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31587562" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -439,18 +496,19 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.21709532" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.502439" side_tool="true" weight="0.24962178" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31587562" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,10 +524,14 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Gradle" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout-to-restore>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringFrameWorkDemo$TodoControllerTest.ic" NAME="TodoControllerTest Coverage Results" MODIFIED="1568203576308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/greeting.java" />
@@ -483,46 +545,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Repository.java">
+    <entry file="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="104">
+          <caret line="630" column="8" selection-start-line="630" selection-start-column="8" selection-end-line="630" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#24178#24179#0" expanded="true" />
+            <element signature="e#24230#24231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="680">
           <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hello/Todo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/TodoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="38" column="84" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+        <state relative-caret-position="374">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -531,11 +594,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hello/TodoControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        <state relative-caret-position="393">
+          <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hello/TodoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo_ui/myscript1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="91" column="18" lean-forward="true" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
         </state>
       </provider>
     </entry>

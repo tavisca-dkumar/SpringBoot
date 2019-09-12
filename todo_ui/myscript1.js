@@ -95,7 +95,7 @@ function toDoTable() {
   }
   function getRequest(){
     var xhrGet=new XMLHttpRequest();
-    xhrGet.open("GET","http://localhost:8080/todo");
+    xhrGet.open("GET","http://localhost:8080/todo/");
     xhrGet.onload= function(){
       todo=[];
       toDoTable();
@@ -109,7 +109,7 @@ function toDoTable() {
   }
   function postRequest(date,text,id){
     var xhrPost=new XMLHttpRequest();
-    xhrPost.open("POST","http://localhost:8080/todo");
+    xhrPost.open("POST","http://localhost:8080/todo/");
     xhrPost.onload=function(){
       getRequest();
     } 

@@ -8,6 +8,20 @@ import java.util.HashMap;
 public class Repository {
     private static final HashMap<Integer,Todo> todo = new HashMap<Integer, Todo>();
 
+    public boolean isEmpty()
+    {
+        if (todo.size()>0)
+            return false;
+        else
+            return true;
+    }
+    public boolean isPresent(int id)
+    {
+        if(todo.get(id)==null)
+            return false;
+        else
+            return true;
+    }
     public ArrayList<Todo> todoItems()
     {
         ArrayList<Todo> todoList = new ArrayList<>(todo.values());
@@ -27,10 +41,10 @@ public class Repository {
         if(todo.containsKey(id))
         {
             todo.remove(id);
-            return todo.containsKey(id);
+            return !todo.containsKey(id);
         }
         else
-            return true;
+            return false;
     }
     public boolean updateTodoItem(Todo todoObj)
     {
