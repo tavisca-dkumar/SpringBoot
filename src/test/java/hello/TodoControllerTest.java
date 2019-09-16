@@ -113,7 +113,7 @@ public class TodoControllerTest {
                 .content(objectMapper.writeValueAsString(mockTodo)).contentType(MediaType.APPLICATION_JSON);
         MvcResult result=mockMvc.perform(requestBuilder).andReturn();
         MockHttpServletResponse res=result.getResponse();
-        Assert.assertEquals(HttpStatus.NOT_FOUND.value(),res.getStatus());
+        Assert.assertEquals(HttpStatus.BAD_REQUEST.value(),res.getStatus());
     }
     @Test
     public void canDeleteTodoItem() throws Exception

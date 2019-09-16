@@ -63,8 +63,7 @@ function toDoTable() {
       return datedata;
     }
     function todoRowMaker(date,text,todoId){
-      if(addingElementToArray(text)){
-        
+        addingElementToArray(text);
         let element = document.getElementById("toDoTable");
         let tr=document.createElement("tr");
         let td0=document.createElement("td");
@@ -91,7 +90,7 @@ function toDoTable() {
         tr.appendChild(td2);
         tr.appendChild(td3);
         element.appendChild(tr);
-    }
+
   }
   function getRequest(){
     var xhrGet=new XMLHttpRequest();
@@ -135,8 +134,9 @@ function toDoTable() {
           prevText=tr.firstChild.nextSibling.firstChild.textContent;
           deletingElementToArray(prevText);
           tr.parentNode.removeChild(tr);
+          getRequest();
         }
-        getRequest();
+
       }
       xhrDelete.send(null);
     }

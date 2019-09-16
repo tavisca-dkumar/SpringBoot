@@ -33,14 +33,14 @@ public class TodoController {
         if(repo.addTodoItem(todoObj))
             return new ResponseEntity(HttpStatus.CREATED);
         else
-            return new ResponseEntity(HttpStatus.INSUFFICIENT_STORAGE);
+            return new ResponseEntity(HttpStatus.BAD_REQUEST);
     }
     @PutMapping("/todo")
     public ResponseEntity updateTodo(@RequestBody Todo todoObj){
        if(repo.updateTodoItem(todoObj))
         return new ResponseEntity(HttpStatus.OK) ;
        else
-           return new ResponseEntity(HttpStatus.NOT_FOUND);
+           return new ResponseEntity(HttpStatus.BAD_REQUEST);
     }
     @DeleteMapping("/todo/{id}")
     public ResponseEntity deleteTodo(@PathVariable int id){

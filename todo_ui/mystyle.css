@@ -32,7 +32,7 @@
       'header header'
       'menu main'
       'footer footer';
-    grid-gap: 0px;
+    grid-gap: 1px;
     padding: 0px;
     grid-template-rows: 100px 455px 100px;
     grid-template-columns: 20% 80%;
@@ -48,7 +48,7 @@
     padding:10px 50px;
     display:block;
     background-color: #dfe3ee;
-    box-shadow: none;
+    box-shadow: 1px 1px 1px 1px black;
     border: none;
     font-size: large;
   }

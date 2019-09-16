@@ -7,7 +7,23 @@ import java.util.HashMap;
 @Component
 public class Repository {
     private static final HashMap<Integer,Todo> todo = new HashMap<Integer, Todo>();
-
+    private static final ArrayList<String> todoItemArray= new ArrayList<String>();
+    public boolean isItemCanBeAdded(String item)
+    {
+        if(todoItemArray.size()==0)
+        {
+            todoItemArray.add(item);
+            return true;
+        }
+        else
+        {
+            for (String ele :todoItemArray) {
+                if(ele.equals(item))
+                    return false;
+            }
+            return true;
+        }
+    }
     public boolean isEmpty()
     {
         if (todo.size()>0)
@@ -33,8 +49,12 @@ public class Repository {
     }
     public boolean addTodoItem(Todo todoObj)
     {
-        todo.put(todoObj.getTodoId(),todoObj);
-        return todo.containsKey(todoObj.getTodoId());
+        if(!todoObj.getTodo().equals("")&& isItemCanBeAdded(todoObj.getTodo())) {
+            todo.put(todoObj.getTodoId(), todoObj);
+            return todo.containsKey(todoObj.getTodoId());
+        }
+        else
+            return false;
     }
     public boolean deleteTodoItem(int id)
     {
@@ -48,7 +68,7 @@ public class Repository {
     }
     public boolean updateTodoItem(Todo todoObj)
     {
-        if(todo.containsKey(todoObj.getTodoId())) {
+        if(todo.containsKey(todoObj.getTodoId())&& isItemCanBeAdded(todoObj.getTodo())) {
             todo.put(todoObj.getTodoId(), todoObj);
             return todo.containsKey(todoObj.getTodoId());
         }
